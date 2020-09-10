@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloWord from './components/HelloWord';
+import App from './pages/App';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'primereact/resources/themes/nova/theme.css';
+import 'primereact/resources/primereact.min.css';
 
-
-ReactDOM.render(<HelloWord/>, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
